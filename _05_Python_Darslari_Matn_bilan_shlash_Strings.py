@@ -20,10 +20,10 @@ print("Men " + meva.lstrip() + " yaxshi ko'raman")
 print("Men " + meva.rstrip() + " yaxshi ko'raman")
 print("Men " + meva.strip() + " yaxshi ko'raman")
 print("Men " + meva + " yaxshi ko'raman")
-# ism = input("Ismingiz nima?")
-# print("Assalom alaykum, " + ism)
-# ism = input("Ismingiz nima?\n>>>") # Foydalanuvchi ismini yangi qatordan kiritadi
-# print("Assalom alaykum, " + ism.title())
+ism = input("Ismingiz nima?")
+print("Assalom alaykum, " + ism)
+ism = input("Ismingiz nima?\n>>>") # Foydalanuvchi ismini yangi qatordan kiritadi
+print("Assalom alaykum, " + ism.title())
 
 
 # AMALIYOT
