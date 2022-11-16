@@ -126,7 +126,7 @@ breakfast.pop(0)
 del breakfast[0]
 breakfast.remove('manti')
 breakfast.append('eggs')
-breakfast.insert(1,'milk')
+breakfast.insert(1, 'milk')
 print(food)
 print(breakfast)
 
