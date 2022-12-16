@@ -32,3 +32,12 @@
 #     }
 #
 # print(mahsulotlar.keys())
+
+
+# print('Do\'kondagi mahsulotlar:')
+# for mahsulot in mahsulotlar.keys():
+#     print(mahsulot.title())
+#
+# for buyum in bozorlik:
+#     if buyum not in mahsulotlar:
+#         print(f"Iltimos, do'koningizga {buyum} ham olib keling")
