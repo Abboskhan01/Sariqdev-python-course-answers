@@ -39,9 +39,15 @@
 # toq_juft()
 #
 
-def daraja():
-    x = float(input('enter your x here >>> '))
-    y = float(input('enter your y here >>> '))
+# def daraja():
+#     x = float(input('enter your x here >>> '))
+#     y = float(input('enter your y here >>> '))
+#     print(f"{x}ning {y}darajasi {x**y}ga teng")
+#
+# daraja()
+
+
+def a(x, y=2):
     print(f"{x}ning {y}darajasi {x**y}ga teng")
 
-daraja()
+a(2)
