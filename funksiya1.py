@@ -10,11 +10,38 @@
 # Answers
 
 
-def born(year=2022):
-    name = input('enter your name here >>>')
-    age = input('enter your age here >>>')
-    wasborn = year - int(age)
-    print(f"{name} you was born {wasborn}")
+# def born(year=2022):
+#     name = input('enter your name here >>>')
+#     age = input('enter your age here >>>')
+#     wasborn = year - int(age)
+#     print(f"{name} you was born {wasborn}")
+#
+#
+# born()
 
+#
+# def calculate():
+#     number = float(input('enter your number here >>> '))
+#     print(f"{number} ning kvadrati {number ** 2} ga teng")
+#     print(f"{number} ning kubi {number ** 3} ga teng")
+#
+#
+# calculate()
+# #
+#
+# def toq_juft():
+#     number = float(input('enter your number here >>> '))
+#     if number//2 == 0:
+#         print(f"{number} just son")
+#     else:
+#         print(f"{number} toq son")
+#
+# toq_juft()
+#
 
-born()
+def daraja():
+    x = float(input('enter your x here >>> '))
+    y = float(input('enter your y here >>> '))
+    print(f"{x}ning {y}darajasi {x**y}ga teng")
+
+daraja()
