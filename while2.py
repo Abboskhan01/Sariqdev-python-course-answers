@@ -9,12 +9,36 @@
 # Answers
 
 
-orders = []
+# orders = []
+#
+# while True:
+#     order = input('enter your order here for stop enter stop')
+#     if order == 'stop':
+#         break
+#     else:
+#         orders.append(order)
+# print(orders)
+#
+
+e_bozor = {}
+
+while True:
+    product = input('enter product name here')
+    price = input('enter price of the product here >>>')
+    answer = input('will add new product or stop')
+    if answer == 'stop':
+        break
+    else:
+        e_bozor[product] = float(price)
+
 
 while True:
     order = input('enter your order here for stop enter stop')
-    if order == 'stop':
-        break
+    if not order == 'stop':
+        if order in e_bozor.keys():
+            print(f"{order}' cost={e_bozor[order]}")
+        else:
+            print(f"{order} not exist in our market")
     else:
-        orders.append(order)
-print(orders)
+        break
+
